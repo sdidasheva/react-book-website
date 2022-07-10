@@ -1,0 +1,39 @@
+[
+    {
+        "image": "images/popular1.png",
+        "title": "История с кладбищами",
+        "author": "Нил Гейман",
+        "year": "2020"
+    },
+    {
+        "image": "images/popular2.png",
+        "title": "Норвежский лес",
+        "author": "Харуки Мураками",
+        "year": "2021"
+    },
+    {
+        "image": "images/popular3.png",
+        "title": "Повелитель мух",
+        "author": "Уильям Голдинг",
+        "year": "2019"
+    },
+    {
+        "image": "images/popular4.png",
+        "title": "Тошнота",
+        "author": "Жан-Поль Сартр",
+        "year": "2019"
+    },
+    {
+        "image": "images/popular5.png",
+        "title": "Тревожные люди",
+        "author": "Фредрик Бакман",
+        "year": "2020"
+    },
+    {
+        "image": "images/popular6.png",
+        "title": "Правление волков",
+        "author": "Ли Бардуго",
+        "year": "2021"
+    }
+
+]

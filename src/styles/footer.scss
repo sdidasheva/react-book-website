@@ -1,0 +1,195 @@
+@import "base.scss";
+
+.footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #37474F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footer_wrapper{
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+}
+
+.footer_title{
+    padding-top: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.title_contacts,
+.title_payment {
+    font-family: $font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #B4B4B4;
+}
+
+.title_contacts{
+    margin-right: 184px;
+}
+
+.title_payment{
+    margin-right: 277px;
+}
+.title_subscribe{
+    font-family: $font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #B4B4B4;
+}
+
+hr {
+    border: 1px solid #FF8A5C;
+}
+
+.footer_info {
+    display: flex;
+}
+.info_contacts{
+    >li {
+        font-family: $font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        color: #B4B4B4;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+}
+
+.info_payment{
+    margin-left: 75px;
+    >li {
+        font-family: $font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        color: #B4B4B4;
+        margin-bottom: 25px;
+        cursor: pointer;
+        max-width: 233px;
+        width: 100%;
+    }
+}
+
+.footer_right{
+    padding-top: 43px;
+}
+.footer_subscribe{
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe_form{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 53px;
+}
+
+.form_email{
+    border: 2px solid rgba(180, 180, 180, 0.4);
+    background-color: transparent;
+    width: 288px;
+    height: 57px;
+    padding-left: 14px;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.02%;
+    letter-spacing: 0.08em;
+    color: #B4B4B4;
+    margin-right: 40px;
+}
+.btn_subscribe{
+    border: 2px solid rgba(180, 180, 180, 0.4);
+    background-color: transparent;
+    padding: 13px 14px;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.02%;
+    letter-spacing: 0.08em;
+    color: #B4B4B4;
+    cursor: pointer;
+}
+
+.subscribe_social{
+    display: flex;
+    flex-direction: column;
+    .social_text{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 136.02%;
+        letter-spacing: 0.08em;
+        color: #B4B4B4;
+        margin-bottom: 15px;
+    }
+}
+
+.social_items{
+    display: flex;
+    flex-direction: row;
+    >li{
+        font-size: 36px;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 750px){
+    .title_payment{
+        margin-right: 10px;
+    }
+}
+
+@media screen and  (max-width: 600px){
+    .title_payment{
+        margin-right: 10px;
+        margin-left: 90px;
+    }
+    .title_contacts{
+    margin-right: 0px;
+}
+    .info_contacts{
+    >li {
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
+    .info_payment{
+        >li {
+            font-size: 28px;
+            line-height: 32px;
+        }
+    }
+    .subscribe_form{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn_subscribe{
+        margin-top: 10px;
+        width: 186px;
+        text-align: center;
+    }
+
+}

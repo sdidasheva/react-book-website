@@ -1,0 +1,238 @@
+@import "base.scss";
+
+.tariff{
+    width: 100%;
+    height: fit-content;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 62px;
+    .tariff_wrapper {
+        max-width: 1440px;
+        width: 100%;
+    }
+}
+
+.tariff_title{
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.52%;
+    letter-spacing: 0.01em;
+    color: #282727;
+    margin: 95px 0px 5px 15%;
+}
+
+.tariff_free{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.free_action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 493px;
+    width: 100%;
+    .free-action_text{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 134.02%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #626E76;
+        margin-bottom: 25px;
+}
+}
+
+
+.free_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .free-info_image {
+        max-width: 636px;
+        width: 100%;
+    }
+
+    .free-info_text{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 134.02%;
+        letter-spacing: 0.01em;
+        color: #878585;
+        max-width: 555px;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.tariff_month{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.month_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .month-info_image {
+        max-width: 586px;
+        width: 100%;
+    }
+    .month-info_text{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.52%;
+        letter-spacing: 0.01em;
+        color: #878585;
+        max-width: 420px;
+        width: 100%;
+        margin-top: 22px;
+    }
+}
+
+.month_action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 329px;
+    width: 100%;
+    .month-action_text{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 134.02%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #626E76;
+        margin-bottom: 35px;
+    }
+    .month-action_price{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 134.02%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin-bottom: 25px;
+    }
+}
+
+.tariff_year{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.year_action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 434px;
+    width: 100%;
+    .year-action_text{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 134.02%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #626E76;
+        margin-bottom: 35px;
+    }
+    .year-action_price{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 134.02%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin-bottom: 25px;
+    }
+}
+
+.year_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .year-info_image{
+        max-width: 543px;
+        width: 100%;
+    }
+    .year-info_text{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.52%;
+        letter-spacing: 0.01em;
+        color: #878585;
+        max-width: 547px;
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1127px){
+    .tariff_free{
+        margin-top: 40px;
+        .free_info {
+            align-items: center;
+            text-align: center;
+        }
+    }
+    .tariff_month{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+        .month_info{
+            order: 2;
+            align-items: center;
+            text-align: center;
+        }
+        .month_action {
+            order: 1;
+        }
+    }
+    .tariff_year {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .year_info{
+            align-items: center;
+            text-align: center;
+        }
+    }
+}

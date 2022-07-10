@@ -1,0 +1,33 @@
+@import "base.scss";
+
+.btn_seeAll{
+    border: 2px solid rgba(6, 6, 6, 0.4);
+    padding: 14px 50px;
+    background-color: transparent;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.02%;
+    letter-spacing: 0.08em;
+    color: #636363;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_start{
+    border: 2px solid rgba(6, 6, 6, 0.4);
+    padding: 14px 50px;
+    background-color: transparent;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.02%;
+    letter-spacing: 0.08em;
+    color: #636363;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+.booklist {
+  width: 100%;
+  height: fit-content;
+  background: #E5E5E5 url("../images/plan2.png") top right/586px 385px no-repeat;
+}
+.booklist .booklist_wrapper {
+  max-width: 1900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.add_block {
+  margin: 50px 10%;
+  text-align: center;
+}
+.add_block .buttonFont > span {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 136.02%;
+  letter-spacing: 0.08em;
+}
+
+.bookCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 10% 50px 10%;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 30px;
+}
+
+.bookCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+  border: 2px solid rgba(6, 6, 6, 0.4);
+  border-radius: 10px;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.delete,
+.edit {
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.delete {
+  color: #FF8A5C;
+}
+
+.edit {
+  color: #178ae8;
+}
+
+.bookCard_title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 136.02%;
+  letter-spacing: 0.08em;
+  color: #000;
+  text-align: center;
+  text-shadow: 1px 1px 2px #626E76;
+}
+
+.bookCard_author {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 136.02%;
+  letter-spacing: 0.08em;
+  color: #000;
+  text-align: center;
+}
+
+.bookCard_content {
+  border: 1px solid rgba(6, 6, 6, 0.4);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 136.02%;
+  letter-spacing: 0.08em;
+  color: #000;
+  height: fit-content;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}/*# sourceMappingURL=booklist.css.map */

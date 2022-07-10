@@ -1,0 +1,38 @@
+[
+    {
+        "image": "images/popular5.png",
+        "title": "Тревожные люди",
+        "author": "Фредрик Бакман",
+        "year": "2020"
+    },
+    {
+        "image": "images/new1.png",
+        "title": "Ведьмак",
+        "author": "Анджей Сапковский",
+        "year": "2020"
+    },
+    {
+        "image": "images/popular6.png",
+        "title": "Правление волков",
+        "author": "Ли Бардуго",
+        "year": "2021"
+    },
+    {
+        "image": "images/new2.png",
+        "title": "Дюна",
+        "author": "Фрэнк Герберт",
+        "year": "2021"
+    },
+    {
+        "image": "images/popular2.png",
+        "title": "Норвежский лес",
+        "author": "Харуки Мураками",
+        "year": "2021"
+    },
+    {
+        "image": "images/popular3.png",
+        "title": "Повелитель мух",
+        "author": "Уильям Голдинг",
+        "year": "2019"
+    }
+]

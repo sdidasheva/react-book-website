@@ -1,0 +1,73 @@
+@import "base.scss";
+
+.about{
+    width: 100%;
+    height: 768px;
+    background:$colorLightGrey url('../images/book-block1.png') right/747px 546px no-repeat;
+
+    .about_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+}
+
+.about_text{
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 136.02%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    width: 522px;
+    margin-bottom: 29px;
+}
+
+.about_btn{
+    border: 2px solid rgba(64, 70, 73, 0.4);
+    padding: 14px 23px;
+    background-color: transparent;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.02%;
+    letter-spacing: 0.08em;
+    color: #DDDDDD;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px){
+    .about{
+    width: 100%;
+    height: 700px;
+    background:$colorLightGrey url('../images/book-block1.png') right/500px no-repeat;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about{
+    width: 100%;
+    height: 500px;
+    background:$colorLightGrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .about_wrapper{
+            margin: 0 20px;
+        }
+    }
+    .about_text{
+        font-size: 30px;
+        line-height: 136.02%;
+        max-width: 522px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,96 @@
+@import "base.scss";
+
+.header {
+    /* max-width: 1440px; */
+    width: 100%;
+    height: 100px;
+    background-color: $colorLightGrey;
+    .wrapper_header {
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 15px;
+    }
+}
+
+.header_logo{
+    width: 70px;
+    height: 70px;
+}
+
+.wrapper_header .desk_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.desk_nav_list{
+    display: flex;
+    gap: 30px;
+    >li {
+        cursor: pointer;
+        .link{
+            font-family: $font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 39px;
+            color: #fff;
+        }
+    }
+}
+.mobile_nav{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper_header .desk_nav {
+        display: none;
+    }
+    .desk_nav_list{
+        display: none;
+    }
+    .wrapper_header .mobile_nav {
+        display: flex;
+        flex-direction: column;
+        opacity: 1;
+    }
+    .mobile_nav_list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 100%;
+        background-color: $colorLightGrey;
+        border-top: 2px solid white;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+        >li {
+            cursor: pointer;
+            .link {
+                font-family: $font;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 25px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                color: #fff;
+            }
+        }
+    }
+    .burger_icon {
+        display: block;
+        font-size: 40px;
+        color: #fff;
+        cursor: pointer;
+        position: absolute;
+        right: 10%;
+        top: 4%;
+    }
+}
