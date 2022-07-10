@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-book-website/static/css/main.3c1431fa.css",
+    "main.js": "/react-book-website/static/js/main.497da8bb.js",
+    "static/media/categories6.png": "/react-book-website/static/media/categories6.fe467e89b03ae7b0fef8.png",
+    "static/media/categories1.png": "/react-book-website/static/media/categories1.4bc466bb76998d30f0ce.png",
+    "static/media/categories5.png": "/react-book-website/static/media/categories5.f6ad44b29eed8d51290a.png",
+    "static/media/categories3.png": "/react-book-website/static/media/categories3.786086c6af370b79af22.png",
+    "static/media/categories2.png": "/react-book-website/static/media/categories2.36ba71c25181ee21fe1b.png",
+    "static/media/categories4.png": "/react-book-website/static/media/categories4.ae1fb9611e6e2b458bfc.png",
+    "static/media/plan1.png": "/react-book-website/static/media/plan1.3f4226f95f39b0f7f2f6.png",
+    "static/media/book-block1.png": "/react-book-website/static/media/book-block1.9792ad9984cc01eaba52.png",
+    "static/media/plan2.png": "/react-book-website/static/media/plan2.51b24eae985053e78fe5.png",
+    "static/media/plan3.png": "/react-book-website/static/media/plan3.2b01db52feb29f91e656.png",
+    "static/media/slick.svg": "/react-book-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-book-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-book-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-book-website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-book-website/index.html",
+    "main.3c1431fa.css.map": "/react-book-website/static/css/main.3c1431fa.css.map",
+    "main.497da8bb.js.map": "/react-book-website/static/js/main.497da8bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c1431fa.css",
+    "static/js/main.497da8bb.js"
+  ]
+}
